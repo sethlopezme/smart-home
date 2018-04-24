@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "id": "everywhere",
+      "name": "Everywhere"
+    },
+    {
+      "id": "office",
+      "name": "Office"
+    },
+    {
+      "id": "living-room",
+      "name": "Living Room"
+    }
+  ],
+  "devices": [
+    {
+      "type": "roku",
+      "groups": ["everywhere", "living-room"],
+      "ip": ""
+    },
+    {
+      "type": "vizio",
+      "groups": ["everywhere", "living-room"],
+      "ip": ""
+    }
+  ]
+}
